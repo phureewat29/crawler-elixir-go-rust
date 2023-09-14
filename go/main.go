@@ -8,9 +8,6 @@ import (
 func processMessages(messages []string, wg *sync.WaitGroup) {
 	for _, msg := range messages {
 		fmt.Printf("Processing message: %s\n", msg)
-		// Simulating some work
-		// You can replace this with actual processing logic
-		// e.g., calling a function, making an API request, etc.
 	}
 
 	wg.Done()
